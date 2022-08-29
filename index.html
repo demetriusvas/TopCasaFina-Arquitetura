@@ -9,8 +9,34 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <!-- SEÇÃO SOBRE NÓS -->
-    <section class="container">
+    <section id="sobre-nos" class="container">
         <h2>Sobre Nós</h2>
         <img src="assets/img/empresa.jpg" alt="" class="img-responsive">
 
@@ -60,7 +86,7 @@
     </div>
 
     <!-- SEÇÃO NOSSOS PROJETOS -->
-    <section class="container">
+    <section id="nossos-projetos" class="container">
         <h2>Nossos Projetos</h2>
         <figure class="thumbnail">
             <img src="assets/img/projetos/casa-castelo.png" alt="Foto da casa castelo">
@@ -105,7 +131,7 @@
     </section>
 
     <!-- SEÇÃO DE DEPOIMENTO DOS CLIENTES -->
-    <section>
+    <section id="depoimentos">
         <h2 class=" container titulo-depoimentos">Depoimentos dos clientes</h2>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -157,7 +183,7 @@
     </section>
 
     <!-- SEÇÃO VIDEO INSTITUCIONAL -->
-    <section class="container">
+    <section id="video" class="container">
         <h2>Vídeo Institucional</h2>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZY3-MFxVdEw" frameborder="0" allowfullscreen></iframe>
@@ -165,7 +191,7 @@
     </section>
 
     <!-- SEÇÃO CONTATO -->
-    <section class="container">
+    <section id="contato" class="container">
         <h2>Contato</h2>
         <p>Entre em contato conosco</p>
 
